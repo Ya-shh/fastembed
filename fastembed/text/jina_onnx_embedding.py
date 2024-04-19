@@ -21,6 +21,14 @@ supported_jina_models = [
         "size_in_GB": 0.12,
         "sources": {"hf": "xenova/jina-embeddings-v2-small-en"},
     },
+    {
+        "model": "jinaai/jina-reranker-v1-turbo-en",
+        "dim": 384,
+        "description": "English embedding model supporting 8192 sequence length",
+        "size_in_GB": 0.12,
+        "sources": {"hf": "jinaai/jina-reranker-v1-turbo-en"},
+    },
+
 ]
 
 
